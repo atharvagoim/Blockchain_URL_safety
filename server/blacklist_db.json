@@ -1,0 +1,66 @@
+{
+  "blacklist": [
+    {
+      "id": "bl_1",
+      "url": "https://metamusk-rewards-security.online/claim",
+      "flaggedBy": "0xF29A4D3396489C579DbA20A3EbCFC2EFE88Abe09",
+      "timestamp": "2026-05-20T15:55:16.656Z",
+      "reason": "Mimicking MetaMask brand to steal seed phrases under guise of rewards authorization.",
+      "score": 8,
+      "txHash": "0x89228fb8e6fe1901a14c1cd8f8303bfa82910ae677fa8f60ab41c88c7f26f29e",
+      "votesUp": 42,
+      "votesDown": 1,
+      "status": "active"
+    },
+    {
+      "id": "bl_2",
+      "url": "http://unisvap-pool-v4-airdrop.ru/liquidity",
+      "flaggedBy": "0xDCAf9948E4430e37965902BFE6B6De9724CE95A0",
+      "timestamp": "2026-05-23T03:55:16.657Z",
+      "reason": "Fake Uniswap decentralized exchange front. Prompts fake smart contract spend approval.",
+      "score": 12,
+      "txHash": "0xab42661cdd8f4a6c8e3128fb99110ab78f68ecfa7616b281f6eed01129ea4b5f",
+      "votesUp": 28,
+      "votesDown": 0,
+      "status": "active"
+    },
+    {
+      "id": "bl_3",
+      "url": "http://steamcommunity-gift-keys.tk/login",
+      "flaggedBy": "0x5E0C2ba83bc8ff8f82877B681ab810B891Abe05e",
+      "timestamp": "2026-05-23T14:54:56.657Z",
+      "reason": "Credential harvesting phishing site targeting Steam gamers using expired domains.",
+      "score": 15,
+      "txHash": "0xe64a88bc3fdf882eb72faebdce88bcfa3392a0cf16e251a2dcdca4f5ff7ffea2",
+      "votesUp": 14,
+      "votesDown": 2,
+      "status": "active"
+    }
+  ],
+  "reporters": [
+    {
+      "address": "0xF29A4D3396489C579DbA20A3EbCFC2EFE88Abe09",
+      "username": "Etherscan_Sentinel",
+      "reputationScore": 980,
+      "totalSubmissions": 24,
+      "validatorsMet": 8,
+      "stakedToken": 2500
+    },
+    {
+      "address": "0xDCAf9948E4430e37965902BFE6B6De9724CE95A0",
+      "username": "Cyber_Sherlock",
+      "reputationScore": 840,
+      "totalSubmissions": 15,
+      "validatorsMet": 5,
+      "stakedToken": 1200
+    },
+    {
+      "address": "0x5E0C2ba83bc8ff8f82877B681ab810B891Abe05e",
+      "username": "Web3_Guard_Alice",
+      "reputationScore": 610,
+      "totalSubmissions": 8,
+      "validatorsMet": 3,
+      "stakedToken": 500
+    }
+  ]
+}

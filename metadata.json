@@ -1,0 +1,8 @@
+{
+  "name": "Blockchain URL Safety Checker",
+  "description": "Decentralized URL threat verification system leveraging a Solidity blacklist smart contract, reputation, and AI phishing analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
